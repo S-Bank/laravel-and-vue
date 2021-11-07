@@ -1,9 +1,18 @@
 <template>
     <div>
-        <h1>
-            app.vue
-            <router-view></router-view>
-        </h1>
-        
+        <header>
+            <h4>This is header area</h4>
+        </header>
+        <aside>
+            <div>
+                <ul>
+                    <li>Left Nav</li>
+                </ul>
+            </div>
+        </aside>
+        <router-view></router-view>
+        <footer>
+            <h5> This is footer area</h5>
+        </footer>
     </div>
 </template>

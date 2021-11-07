@@ -1,12 +1,7 @@
 <template>
     <div>
-        <h1>About us components for test</h1>
+        <h5>Content Area</h5>
     </div>
 </template>
 
-<script>
-export default{
-    
-}
-</script>
 
