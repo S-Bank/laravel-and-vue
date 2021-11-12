@@ -10,6 +10,9 @@
                     <li>
                         <router-link to="/hooks">hooks</router-link>
                     </li>
+                    <li>
+                        <router-link to="/methods">methods</router-link>
+                    </li>
                 </ul>
             </div>
         </aside>

@@ -3,6 +3,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import  about  from './vue/pages/about'
 import hooks from './vue/pages/basic/hooks'
+import methods from './vue/pages/basic/methods'
 
 Vue.use(Router)
 
@@ -14,6 +15,10 @@ const routes = [
     {
         path: '/hooks',
         component:hooks
+    },
+    {
+        path: '/methods',
+        component:methods
     }
    
 ]

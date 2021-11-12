@@ -17,6 +17,7 @@ export default {
     },
     created() {        
         console.log("data and funtions are available but html is not access");
+        this.name  = "Muhammad Hussain";
         
     },
     mounted(){
